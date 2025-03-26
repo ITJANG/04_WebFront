@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #f6f8fa;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 100%;
+  padding: 16px;
+}
+
+.header-bar-start {
+  display: flex;
+  flex-basis: 160px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bar-start > button {
+  background-color: #f6f8fa; 
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgb(209, 217, 224);
+  border-radius: 5px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bar-start > button i{
+  color: #596362;
+  font-size: 15px;
+}
+
+.header-bar-start > a {
+  
+}
+
+.header-bar-start > .icon > i {
+  font-size: 31px;
+  color: black;
+}
+
+
