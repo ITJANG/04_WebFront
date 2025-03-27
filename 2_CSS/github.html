@@ -10,44 +10,275 @@
 <body>
   <header>
     <section class="header-bar-start">
-      <button><i class="fa-solid fa-bars"></i></button> 
-      <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-      <a href="#" class="dash">Dashboard</a>
+      <section>
+        <button><i class="fa-solid fa-bars"></i></button> 
+        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="dash">Dashboard</a>
+      </section>
+
     </section>
 
     <section class="header-bar-end">
-      <button class="header-search">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        Type<div>/</div>to search
-      </button>
-      <div class="copilot">
-        <button><img src="../images/Github-Copilot-Logo.png"></button>
-        <button><i class="fa-solid fa-caret-down"></i></button>
-      </div>
-      <span>|</span>
-      <button class="creat">
-        <i class="fa-solid fa-plus"></i>
-        <i class="fa-solid fa-caret-down"></i>
-      </button>
-      <button class="issues">
-        <img src="../images/dot-circle.png" style="width: 20px;">
-      </button>
-      <button class="requests">
-        <i class="fa-solid fa-code-pull-request"></i>
-      </button>
-      <button class="notifi">
-        <i class="fa-solid fa-inbox"></i>
-      </button>
-      <button class="user">
-        <img src="../images/cats/cat1.jpg" style="width: 50px;">
-      </button>
+      <section>
+        <button class="header-search">
+          <i class="fa-solid fa-magnifying-glass"></i> 
+          <span>Type <span>/</span> to search</span>
+        </button>
+        <div class="copilot"><!---->
+          <button><img src="../images/Github-Copilot-Logo.png"></button>
+          <button><i class="fa-solid fa-caret-down"></i></button>
+        </div>
+        <span class="spani">|</span>
+        <div>
+          <button class="create">
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-caret-down"></i>
+          </button>
+        </div>
+        <div>
+          <button class="issues">
+            <img src="../images/dot-circle.png" style="width: 20px;">
+          </button>
+        </div>
+        <div>
+          <button class="requests">
+            <i class="fa-solid fa-code-pull-request"></i>
+          </button>
+        </div>
+        <div>
+          <button class="notifi">
+            <i class="fa-solid fa-inbox"></i>
+          </button>
+        </div>
+        <button class="user">
+          <img src="../images/JANG.png">
+        </button>
+      </section>
     </section>
   </header>
 
   <main>
-    <aside></aside>
-    <section></section>
-    <aside></aside>
+    <aside class="aside1">
+      <div class="aside1-container">
+        <div class="aside1-top">
+          <h2>Top repositories</h2>
+          <a href="#">
+            <div><i class="fa-solid fa-book"></i></div>
+            <div>New</div>
+          </a>
+        </div>
+        <div class="aside1-search">
+          <input type="text" placeholder="   Find a repository...">
+        </div>
+        <div class="aside1-list">
+          <ul>
+            <li>
+              <a href="#">
+                <span><img src="../images/JANG.png"></span>
+                <span>ITJANG/01_Java</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><img src="../images/JANG.png"></span>
+                <span>ITJANG/02_DB</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><img src="../images/JANG.png"></span>
+                <span>ITJANG/03_JDBC</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><img src="../images/JANG.png"></span>
+                <span>ITJANG/04_WebFront</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <section class="mainpage">
+      <div class="maincontainer">
+        <section>
+          <div class="ask-copilot">
+            <textarea placeholder="Ask Copilot"></textarea>
+            <button><i class="fa-regular fa-paper-plane"></i></button>
+          </div>
+          <div class="copilot-preview">
+            <button>
+              <i class="fa-solid fa-key">
+            </i>&nbsp;&nbsp;Git credential management</button>
+            <button>
+              <i class="fa-solid fa-chevron-left"></i>
+              <i class="fa-solid fa-chevron-right"></i>
+              &nbsp;&nbsp;Python variable passing guide
+            </button>
+          </div>
+        </section>
+        <section>
+          <div class="maincontent-head">
+            <div>
+              <h2>Home</h2>
+            </div>
+            <div>
+              <button><img src="../images/bars-filter.png"> &nbsp; Filter</button>
+            </div>
+          </div>
+          
+          <div class="maincontent-content">
+
+            <div class="content-container">
+              <div class=" content-user">
+                <div class="content-profile">
+                  <a href="#"><img src="/images/JJANG.jpg"></a>
+                </div>
+                <div class="content-text">
+                  <div><a href="#">khcmh2502</a><span>created a repository</span></div>
+                  <span>last week</span>
+                </div>
+              </div>
+              <div class="content-box">
+                <div class="content">
+                  <div class="content-title">
+                    <a href="#">
+                      <img src="/images/JJANG.jpg" alt=""><span>khcmh2502/04_WebFront</span>
+                    </a>
+                  </div>
+                  <div class="content-type">
+                    <div class="dot"></div><span>HTML</span>
+                  </div>
+                </div>
+                <div class="content-star">
+                  <button class="star"><i class="fa-regular fa-star"></i><span>Star</span></button>
+                  <button class="arrow"><i class="fa-solid fa-caret-down"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class=" content-user">
+                <div class="content-profile">
+                  <a href="#"><img src="/images/JJANG.jpg"></a>
+                </div>
+                <div class="content-text">
+                  <div><a href="#">khcmh2502</a><span>created a repository</span></div>
+                  <span>last week</span>
+                </div>
+              </div>
+              <div class="content-box">
+                <div class="content">
+                  <div class="content-title">
+                    <a href="#">
+                      <img src="/images/JJANG.jpg" alt=""><span>khcmh2502/03_JDBC</span>
+                    </a>
+                  </div>
+                  <div class="content-type">
+                    <div class="dot" style="background-color: #B07219;"></div><span>Java</span>
+                  </div>
+                </div>
+                <div class="content-star">
+                  <button class="star"><i class="fa-regular fa-star"></i><span>Star</span></button>
+                  <button class="arrow"><i class="fa-solid fa-caret-down"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class=" content-user">
+                <div class="content-profile">
+                  <a href="#"><img src="/images/JJANG.jpg"></a>
+                </div>
+                <div class="content-text">
+                  <div><a href="#">khcmh2502</a><span>created a repository</span></div>
+                  <span>last week</span>
+                </div>
+              </div>
+              <div class="content-box">
+                <div class="content">
+                  <div class="content-title">
+                    <a href="#">
+                      <img src="/images/JJANG.jpg" alt=""><span>khcmh2502/02_DB</span>
+                    </a>
+                  </div>
+                  <div class="content-type">
+                    <div class="dot" style="background-color: #DAD8D8;"></div><span>PLSQL</span>
+                  </div>
+                </div>
+                <div class="content-star">
+                  <button class="star"><i class="fa-regular fa-star"></i><span>Star</span></button>
+                  <button class="arrow"><i class="fa-solid fa-caret-down"></i></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <footer>
+            <section>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <span>&copy; 2025 GitHub, Inc.</span>
+              <a href="#">Terms</a>
+              <a href="#">Privacy</a>
+              <a href="#">Security</a>
+              <a href="#">Status</a>
+              <a href="#">Docs</a>
+              <a href="#">Contact</a>
+              <a href="#">Manage cookies</a>
+              <a href="#">Do not share my personal information</a>
+            </section>
+          </footer>
+        </section>
+      </div>
+      <aside class="aside2">
+        <div>
+          <div class="latest">
+            <h2>Latest changes</h2>
+            <ul>
+              <li>
+                <div>15 hours ago</div>
+                <a href="#">Transitive dependencies are now available for Maven</a>
+              </li>
+              <li>
+                <div>2 days ago</div>
+                <a href="#">Enterprise custom properties, enterprise rulesets, and pull request merge method rule are all now generally available</a>
+              </li>
+              <li>
+                <div>5 days ago</div>
+                <a href="#">Create, add, and remove sub-issues on GitHub Mobile</a>
+              </li>
+              <li>
+                <div>Last week</div>
+                <a href="#">Enhance your productivity with Copilot Edits in JetBrains IDEs</a>
+              </li>
+            </ul>
+            <div class="view">
+              <a href="#">View changelog →</a>
+            </div>
+          </div>
+          <div class="explore">
+            <h2>Explore repositories</h2>
+            <div class="explore-content">
+              <div class="explore-content-top">
+                <div class="explore-content-top-right">
+                  <img src="/images/meshery.png" alt="">
+                  <span>meshery / meshery</span>
+                </div>
+                <div class="explore-content-top-left">
+                  <button><i class="fa-regular fa-star"></i></button>
+                </div>
+              </div>
+              <div class="explore-content-mid">
+                <span>Meshery, the cloud native manager</span>
+              </div>
+              <div class="explore-content-bottom">
+                <div><i class="fa-regular fa-star"></i><span>7k</span></div>
+                <div><div class="dot" style="background-color: #F1E05A;"></div>JavaScript</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
   </main>
 </body>
 </html>
